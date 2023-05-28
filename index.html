@@ -4,46 +4,10 @@
 <head>
     <title>Carta Bar Aielo</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
     <style type="text/css">
-        body {
-            font-family: 'Open Sans', sans-serif;
-            margin: 40px 20px;
-            background: rgba(242, 246, 248, 1);
-            background: -moz-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
-            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(5%, rgba(189, 221, 240, 0.98)), color-stop(66%, rgba(216, 225, 231, 0.74)), color-stop(100%, rgba(224, 239, 249, 0.6)));
-            background: -webkit-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
-            background: -o-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
-            background: -ms-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
-            background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0);
-        }
-
-        .contenedorLogo {
-            margin: 60px;
-        }
-
-        img.logo {
-            width: 100%;
-        }
-
-        .titulo {
-            font-size: 10em;
-            text-align: center;
-        }
-
-        .datosPersonales {
-            text-align: center;
-            font-size: 2em;
-        }
-
-        .apartadoProducto {
-            margin-top: 100px;
-            padding: 0 20px;
-            font-size: 2.5em;
-            font-weight: bold;
-            color: darkblue;
-        }
-
         .tablaProductos {
             width: 100%;
             padding: 0 20px;
@@ -58,49 +22,15 @@
         .tablaProductos tr td:last-child {
             text-align: right;
             padding-left: 10px;
+            font-weight: 600;
         }
 
         .calsotada {
             margin-top: 100px;
             text-align: center;
         }
-
-        .especialidades {
-            margin-top: 150px;
-            font-size: 3em;
-            text-align: center;
-            padding: 0 20px;
-            color: darkblue;
-        }
-
-        .calsots {
-            text-align: center;
-        }
-
-        .subtitle {
-            font-size: 70%;
-            margin-top: 50px;
-            text-align: center;
-        }
-
-        .facebook {
-            text-align: center;
-        }
-
-        .iconoFace {
-            width: 3em;
-        }
-
-        .facebook span {
-            padding-left: 30px;
-            font-size: 200%;
-        }
-
-        .facebook a {
-            text-decoration: none;
-            color: black;
-        }
     </style>
+
 </head>
 
 <body>
@@ -108,26 +38,28 @@
     <div class="contenedorLogo">
         <img class="logo" src="logo.svg">
     </div>
-    <!-- <h1 class="titulo">CARTA</h1> -->
     <p class="datosPersonales">
         Jose Colau<br>
         C/ Esglèsia, 26<br>
         Aielo de Rugat<br>
         Tel: 655780246<br>
         josecolau5051@gmail.com
-    <div class="facebook">
-        <a href="https://m.facebook.com/josecolauu/">
+        <br>
+        <a href="https://m.facebook.com/josecolauu/" class="facebook">
             <img class="iconoFace" src="face.png">
             <span>Bar Aielo</span>
         </a>
-    </div>
     </p>
+
+    <h1 class="titulo">
+        CARTA
+    </h1>
 
     <h2 class="apartadoProducto">TAPES</h2>
     <table class="tablaProductos">
         <tr>
             <td>Papes</td>
-            <td>1.00€</td>
+            <td>1.50€</td>
         </tr>
         <tr>
             <td>Cacaus</td>
@@ -207,7 +139,7 @@
         </tr>
         <tr>
             <td>Coques de camaró</td>
-            <td>(Unidad 0.75€)</td>
+            <td>(Unitat 0.75€)</td>
         </tr>
         <tr>
             <td>Tellines</td>
@@ -252,19 +184,19 @@
 
         <tr>
             <td>Llom amb tomaca i formatge</td>
-            <td>(Unidad 1.50€)</td>
+            <td>(Unitat 1.50€)</td>
         </tr>
         <tr>
             <td>Llom amb tomaca i alls tendres</td>
-            <td>(Unidad 1.50€)</td>
+            <td>(Unitat 1.50€)</td>
         </tr>
         <tr>
             <td>Llom amb bolets</td>
-            <td>(Unidad 1.50€)</td>
+            <td>(Unitat 1.50€)</td>
         </tr>
         <tr>
             <td>Truita (a elegir)</td>
-            <td>(Unidad 1.50€)</td>
+            <td>(Unitat 1.50€)</td>
         </tr>
     </table>
 
@@ -459,32 +391,32 @@
     <h2 class="apartadoProducto">CERVESA</h2>
     <table class="tablaProductos">
         <tr>
-            <td>Tercio (San Miguel/Amstel/Alhambra)</td>
-            <td>1.50€</td>
+            <td>Tercio (San Miguel/Amstel/Alhambra/Aguila)</td>
+            <td>1.80€</td>
         </tr>
         <tr>
-            <td>Tercio (Mahou)</td>
-            <td>1.60€</td>
+            <td>Tercio (Mahou/Turia/Estrella Galicia)</td>
+            <td>2.00€</td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td>Tercio (Agila sense filtre)</td>
             <td>1.70€</td>
-        </tr>
+        </tr> -->
         <tr>
             <td>Tercio (Radler)</td>
-            <td>1.60€</td>
+            <td>1.80€</td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td>Tercio (Amstel oro)</td>
             <td>1.60€</td>
-        </tr>
+        </tr> -->
         <tr>
             <td>Tercio 0,0</td>
-            <td>1.60€</td>
+            <td>1.80€</td>
         </tr>
         <tr>
-            <td>Quinto (Mahou)</td>
-            <td>1.20€</td>
+            <td>Quinto</td>
+            <td>1.50€</td>
         </tr>
         <tr>
             <td>Litre</td>
@@ -496,7 +428,7 @@
     <table class="tablaProductos">
         <tr>
             <td>Vi de la casa</td>
-            <td>5.00€</td>
+            <td>6.00€</td>
         </tr>
         <tr>
             <td>Salinas</td>
@@ -581,7 +513,7 @@
     </table>
 
     <div class="calsotada">
-        <h2 class="apartadoProducto">MENÚ COLÇATADA: 20€</h2>
+        <h2 class="apartadoProducto">MENÚ COLÇATADA: 24€</h2>
         <h3>Entrants</h3>
         Pa torrat amb tomata i allioli<br>
         Surtit d’ embotits

@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 40px 20px;
+    background: #f2f6f8;
+    background: -moz-linear-gradient(top, rgba(242, 246, 248, 1) 0%, #bcddf0 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(5%, rgba(189, 221, 240, 0.98)), color-stop(66%, rgba(216, 225, 231, 0.74)), color-stop(100%, rgba(224, 239, 249, 0.6)));
+    background: -webkit-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
+    background: -o-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
+    background: -ms-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
+    background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(189, 221, 240, 0.98) 5%, rgba(216, 225, 231, 0.74) 66%, rgba(224, 239, 249, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0);
+}
+
+.contenedorLogo {
+    margin: 60px;
+}
+
+img.logo {
+    width: 100%;
+}
+
+.datosPersonales {
+    text-align: center;
+    font-size: 2em;
+}
+
+.titulo {
+    font-size: 4em;
+    text-align: center;
+    color: #001f3f;
+    font-weight: bold;
+}
+
+.apartadoProducto {
+    margin-top: 100px;
+    padding: 0 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #001f3f;
+}
+
+.especialidades {
+    margin-top: 150px;
+    font-size: 3em;
+    text-align: center;
+    padding: 0 20px;
+    color: #001f3f;
+}
+
+.iconoFace {
+    width: 2em;
+}
+
+.facebook span {
+    padding-left: 30px;
+    font-size: 200%;
+}
+
+.facebook {
+    text-decoration: none;
+    color: #001f3f;display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.calsots {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 70%;
+    margin-top: 50px;
+    text-align: center;
+}
